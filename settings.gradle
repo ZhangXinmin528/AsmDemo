@@ -1,3 +1,4 @@
 rootProject.name='AsmDemo'
 include ':app'
-include ':asm_plugin'
+//include ':asm_plugin'
+include ':asm_lifecycle_plugin'

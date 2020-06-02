@@ -10,7 +10,7 @@ buildscript {
     }
     dependencies {
         //加载自定义插件 group + module + version
-        classpath 'zxm.lifecycle.plugin:asm_plugin:1.0.0'
+        classpath 'zxm.lifecycle.plugin:asm_lifecycle_plugin:1.0.0'
     }
 }
 
@@ -42,7 +42,4 @@ dependencies {
 
     implementation 'androidx.appcompat:appcompat:1.1.0'
     implementation 'androidx.constraintlayout:constraintlayout:1.1.3'
-    testImplementation 'junit:junit:4.12'
-    androidTestImplementation 'androidx.test.ext:junit:1.1.1'
-    androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
 }
